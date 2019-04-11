@@ -14,6 +14,10 @@ public class Test {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		
+		String aString = new String("xyz");
+		String bString = new String("xyz");
+		System.out.println(aString == bString);
 	}
 }	
 	
